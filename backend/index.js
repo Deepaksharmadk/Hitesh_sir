@@ -10,6 +10,6 @@ app.get("/twitter", (req, res) => {
   res.send("Hello Deepak sharma");
 });
 app.listen(process.env.PORT, () => {
-  console.log(`Example app listening on port ${PORT}`);
+  console.log(`Example app listening on port ${process.env.PORT}`);
 });
 app.s;
