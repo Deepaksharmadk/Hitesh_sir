@@ -1,2 +1,4 @@
 node_modules
 .env
+package-loc.json
+package.json
